@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/benchmarks/">
+    <Project Path="benchmarks/HighThroughputEventIngestion.Benchmarks/HighThroughputEventIngestion.Benchmarks.csproj" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/HighThroughputEventIngestion.Api/HighThroughputEventIngestion.Api.csproj" />
+    <Project Path="src/HighThroughputEventIngestion.Core/HighThroughputEventIngestion.Core.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/HighThroughputEventIngestion.Tests/HighThroughputEventIngestion.Tests.csproj" />
+  </Folder>
+</Solution>

@@ -1,0 +1,29 @@
+## Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa]rms/
+[Aa]rm64/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+## Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## BenchmarkDotNet
+BenchmarkDotNet.Artifacts/
+
+## Test Results
+TestResults/
+[Tt]est[Rr]esult*/
