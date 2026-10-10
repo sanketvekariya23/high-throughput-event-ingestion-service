@@ -1,6 +1,6 @@
 using HighThroughputEventIngestion.Core.Configuration;
 using HighThroughputEventIngestion.Core.Services;
-using HighThroughputEventIngestion.Core.Storage;
+using HighThroughputEventIngestion.Core.Services.Storage;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 

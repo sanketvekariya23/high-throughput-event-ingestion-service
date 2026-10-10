@@ -1,6 +1,6 @@
 using System.Collections.Concurrent;
 
-namespace HighThroughputEventIngestion.Core.Storage;
+namespace HighThroughputEventIngestion.Core.Services.Storage;
 
 /// <summary>
 /// High-concurrency device registry implementation backed by ConcurrentDictionary.

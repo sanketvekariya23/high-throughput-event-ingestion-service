@@ -1,4 +1,4 @@
-namespace HighThroughputEventIngestion.Core.Storage;
+namespace HighThroughputEventIngestion.Core.Services.Storage;
 
 /// <summary>
 /// Compact 16-byte unmanaged value type representing a reading in device memory.

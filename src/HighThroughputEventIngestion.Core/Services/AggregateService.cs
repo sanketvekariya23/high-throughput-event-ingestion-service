@@ -1,6 +1,6 @@
 using HighThroughputEventIngestion.Core.Configuration;
 using HighThroughputEventIngestion.Core.Model;
-using HighThroughputEventIngestion.Core.Storage;
+using HighThroughputEventIngestion.Core.Services.Storage;
 
 namespace HighThroughputEventIngestion.Core.Services;
 

@@ -4,7 +4,7 @@ using BenchmarkDotNet.Order;
 using HighThroughputEventIngestion.Core.Extensions;
 using HighThroughputEventIngestion.Core.Model;
 using HighThroughputEventIngestion.Core.Services;
-using HighThroughputEventIngestion.Core.Storage;
+using HighThroughputEventIngestion.Core.Services.Storage;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace HighThroughputEventIngestion.Benchmarks;

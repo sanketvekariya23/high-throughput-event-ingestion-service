@@ -2,7 +2,7 @@ using System.Text.Json;
 using HighThroughputEventIngestion.Core.Configuration;
 using HighThroughputEventIngestion.Core.Exceptions;
 using HighThroughputEventIngestion.Core.Model;
-using HighThroughputEventIngestion.Core.Storage;
+using HighThroughputEventIngestion.Core.Services.Storage;
 using HighThroughputEventIngestion.Core.Validation;
 
 namespace HighThroughputEventIngestion.Core.Services;

@@ -1,4 +1,4 @@
-namespace HighThroughputEventIngestion.Core.Storage;
+namespace HighThroughputEventIngestion.Core.Services.Storage;
 
 /// <summary>
 /// Thread-safe registry and lifecycle manager for all device states.

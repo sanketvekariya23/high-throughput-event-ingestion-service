@@ -1,6 +1,6 @@
 using HighThroughputEventIngestion.Core.Model;
 
-namespace HighThroughputEventIngestion.Core.Storage;
+namespace HighThroughputEventIngestion.Core.Services.Storage;
 
 /// <summary>
 /// Maintains rolling window aggregate state for a single device.
