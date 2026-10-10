@@ -76,6 +76,7 @@ public static class EventEndpoints
         })
         .WithName("IngestReadings")
         .WithSummary("Ingests a batch of IoT device readings streaming directly from JSON body.")
+        .Accepts<Reading[]>("application/json")
         .Produces<IngestionResult>(StatusCodes.Status200OK)
         .Produces<ProblemDetails>(StatusCodes.Status400BadRequest)
         .Produces<ProblemDetails>(StatusCodes.Status500InternalServerError);

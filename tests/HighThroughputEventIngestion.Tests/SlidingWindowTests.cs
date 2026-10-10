@@ -1,7 +1,7 @@
 using HighThroughputEventIngestion.Core.Configuration;
 using HighThroughputEventIngestion.Core.Model;
 using HighThroughputEventIngestion.Core.Services;
-using HighThroughputEventIngestion.Core.Storage;
+using HighThroughputEventIngestion.Core.Services.Storage;
 using HighThroughputEventIngestion.Tests.Fakes;
 
 namespace HighThroughputEventIngestion.Tests;

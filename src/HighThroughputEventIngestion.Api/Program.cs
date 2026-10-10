@@ -10,7 +10,9 @@ builder.Services.AddEventIngestionCore();
 // Register background service for periodic stale device state cleanup
 builder.Services.AddHostedService<DeviceCleanupBackgroundService>();
 
-// Register OpenAPI documentation
+// Register OpenAPI & Swagger documentation
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 builder.Services.AddOpenApi();
 
 var app = builder.Build();
@@ -18,6 +20,8 @@ var app = builder.Build();
 // Configure the HTTP request pipeline
 if (app.Environment.IsDevelopment())
 {
+    app.UseSwagger();
+    app.UseSwaggerUI();
     app.MapOpenApi();
 }
 
